@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FindAPaw connects loving families with rescue pets waiting for their forever homes."
+    />
+    <title>FindAPaw — Find your forever friend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="FindAPaw home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" role="img">
+              <path d="M20 30.8c-2.7 0-8.2-2.8-8.2-7.1 0-3.5 3.4-6.2 8.2-6.2s8.2 2.7 8.2 6.2c0 4.3-5.5 7.1-8.2 7.1Z" />
+              <circle cx="9.1" cy="15.2" r="4.1" />
+              <circle cx="15.7" cy="9.8" r="4.2" />
+              <circle cx="24.3" cy="9.8" r="4.2" />
+              <circle cx="30.9" cy="15.2" r="4.1" />
+            </svg>
+          </span>
+          <span>FindA<span>Paw</span></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#pets">Meet the pets</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#about">Our mission</a>
+        </nav>
+        <a class="button button-small" href="#apply">Apply to adopt</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow"><span aria-hidden="true">♥</span> 2,400+ happy adoptions</div>
+            <h1 id="hero-title">Your new best friend is <em>waiting.</em></h1>
+            <p>
+              Meet lovable rescue pets near you and find the companion who makes your
+              house feel more like home.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#pets">Find your match</a>
+              <a class="text-link" href="#how-it-works">
+                See how it works
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+            <div class="trust-row" aria-label="FindAPaw benefits">
+              <span>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8" /></svg>
+                Verified shelters
+              </span>
+              <span>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8" /></svg>
+                Simple applications
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="A happy adopted dog outdoors">
+            <div class="hero-blob"></div>
+            <img
+              src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1100&q=88"
+              alt="A happy golden retriever sitting outdoors"
+            />
+            <div class="match-card">
+              <span class="match-icon" aria-hidden="true">♥</span>
+              <span><strong>It’s a match!</strong><small>Charlie found a home</small></span>
+            </div>
+            <div class="location-card">
+              <span aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" /><circle cx="12" cy="10" r="2.5" /></svg>
+              </span>
+              <strong>Pets near you</strong>
+              <small>42 new friends nearby</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pet-section" id="pets" aria-labelledby="pets-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">Ready to meet you</span>
+              <h2 id="pets-title">A few friendly faces</h2>
+            </div>
+            <a class="text-link" href="#apply">Start an application <span aria-hidden="true">→</span></a>
+          </div>
+
+          <div class="pet-grid">
+            <article class="pet-card">
+              <div class="pet-photo">
+                <img
+                  src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=700&q=84"
+                  alt="Luna, a gray tabby cat"
+                  loading="lazy"
+                />
+                <span class="pet-tag">Gentle soul</span>
+              </div>
+              <div class="pet-info">
+                <div><h3>Luna</h3><p>Tabby cat · 2 years</p></div>
+                <span class="pet-gender" aria-label="Female">♀</span>
+              </div>
+            </article>
+            <article class="pet-card">
+              <div class="pet-photo">
+                <img
+                  src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=700&q=84"
+                  alt="Cooper, a smiling mixed-breed dog"
+                  loading="lazy"
+                />
+                <span class="pet-tag">Adventure buddy</span>
+              </div>
+              <div class="pet-info">
+                <div><h3>Cooper</h3><p>Mixed breed · 3 years</p></div>
+                <span class="pet-gender" aria-label="Male">♂</span>
+              </div>
+            </article>
+            <article class="pet-card">
+              <div class="pet-photo">
+                <img
+                  src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=700&q=84"
+                  alt="Milo, an orange cat"
+                  loading="lazy"
+                />
+                <span class="pet-tag">Professional cuddler</span>
+              </div>
+              <div class="pet-info">
+                <div><h3>Milo</h3><p>Domestic shorthair · 1 year</p></div>
+                <span class="pet-gender" aria-label="Male">♂</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps-section" id="how-it-works" aria-labelledby="steps-title">
+        <div class="container">
+          <div class="center-heading">
+            <span class="section-kicker">A simple path home</span>
+            <h2 id="steps-title">Three steps to forever</h2>
+            <p>We make adoption feel less overwhelming and a lot more joyful.</p>
+          </div>
+          <ol class="steps-grid">
+            <li>
+              <span class="step-number">01</span>
+              <div class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32"><circle cx="14" cy="14" r="8" /><path d="m20 20 7 7" /></svg>
+              </div>
+              <h3>Discover</h3>
+              <p>Browse pets from trusted shelters and find one who fits your life.</p>
+            </li>
+            <li>
+              <span class="step-number">02</span>
+              <div class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32"><path d="M8 5h12l5 5v17H8Z" /><path d="M20 5v6h5M12 17h9M12 22h7" /></svg>
+              </div>
+              <h3>Apply</h3>
+              <p>Tell us a little about yourself with one friendly application.</p>
+            </li>
+            <li>
+              <span class="step-number">03</span>
+              <div class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32"><path d="M16 27S5 21 5 12a6 6 0 0 1 11-3 6 6 0 0 1 11 3c0 9-11 15-11 15Z" /></svg>
+              </div>
+              <h3>Meet</h3>
+              <p>Connect with the shelter, meet your match, and bring them home.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="application-section" id="apply" aria-labelledby="application-title">
+        <div class="container application-grid">
+          <div class="application-copy">
+            <span class="section-kicker light">Ready when you are</span>
+            <h2 id="application-title">Open your heart.<br />Change a life.</h2>
+            <p>
+              Your answers help our shelter partners learn about you and find the right
+              companion for your home.
+            </p>
+            <blockquote>
+              “Adopting Maple was the best decision we ever made. FindAPaw made every
+              step feel easy and personal.”
+              <footer>
+                <span class="avatar" aria-hidden="true">JD</span>
+                <span><strong>Jamie &amp; Drew</strong><small>Adopted Maple in 2025</small></span>
+              </footer>
+            </blockquote>
+          </div>
+
+          <div class="form-card">
+            <div class="form-heading">
+              <span class="form-paw" aria-hidden="true">♥</span>
+              <div>
+                <h3>Adoption application</h3>
+                <p>Tell us a little about yourself.</p>
+              </div>
+            </div>
+
+            <form id="adoption-form" novalidate>
+              <div class="field">
+                <label for="full-name">Full name</label>
+                <input
+                  id="full-name"
+                  name="fullName"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="e.g. Taylor Morgan"
+                  required
+                />
+                <span class="field-error" id="full-name-error"></span>
+              </div>
+
+              <div class="field-row">
+                <div class="field">
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    inputmode="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                  <span class="field-error" id="email-error"></span>
+                </div>
+                <div class="field">
+                  <label for="phone">Phone number</label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    inputmode="tel"
+                    placeholder="(555) 123-4567"
+                    required
+                  />
+                  <span class="field-error" id="phone-error"></span>
+                </div>
+              </div>
+
+              <fieldset class="field home-field">
+                <legend>What type of home do you live in?</legend>
+                <div class="radio-group">
+                  <label class="radio-option">
+                    <input type="radio" name="homeType" value="house" required />
+                    <span class="radio-content">
+                      <svg viewBox="0 0 28 28" aria-hidden="true"><path d="m4 13 10-8 10 8v11H4Z" /><path d="M11 24v-7h6v7" /></svg>
+                      <span>House</span>
+                    </span>
+                  </label>
+                  <label class="radio-option">
+                    <input type="radio" name="homeType" value="apartment" />
+                    <span class="radio-content">
+                      <svg viewBox="0 0 28 28" aria-hidden="true"><path d="M7 24V4h14v20M4 24h20M11 9h2M16 9h2M11 13h2M16 13h2M11 17h2M16 17h2" /></svg>
+                      <span>Apartment</span>
+                    </span>
+                  </label>
+                </div>
+                <span class="field-error" id="home-type-error"></span>
+              </fieldset>
+
+              <div class="field">
+                <label for="message">Why would you like to adopt?</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Share a little about the home and life you’d offer a pet..."
+                  aria-describedby="message-hint"
+                  maxlength="500"
+                  required
+                ></textarea>
+                <div class="field-meta">
+                  <span id="message-hint">A few thoughtful sentences are perfect.</span>
+                  <span id="character-count">0 / 500</span>
+                </div>
+                <span class="field-error" id="message-error"></span>
+              </div>
+
+              <button class="button submit-button" type="submit">
+                <span>Send my application</span>
+                <span aria-hidden="true">→</span>
+              </button>
+              <p class="privacy-note">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="4" y="8" width="12" height="9" rx="2" /><path d="M7 8V6a3 3 0 0 1 6 0v2" /></svg>
+                Your information is private and only shared with adoption partners.
+              </p>
+            </form>
+
+            <div class="form-success" id="form-success" tabindex="-1" hidden>
+              <div class="success-icon" aria-hidden="true">✓</div>
+              <h3>Application sent!</h3>
+              <p>Thank you for opening your heart. We’ll be in touch within 2–3 days.</p>
+              <button class="text-button" id="reset-form" type="button">Submit another application</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mission-section" id="about" aria-labelledby="mission-title">
+        <div class="container mission-grid">
+          <div>
+            <span class="section-kicker">Why FindAPaw</span>
+            <h2 id="mission-title">Every pet deserves to be found.</h2>
+          </div>
+          <p>
+            We partner with local rescues to make pet adoption clearer, kinder, and
+            easier to navigate—so more animals can trade shelter beds for sunny spots on
+            the couch.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M20 30.8c-2.7 0-8.2-2.8-8.2-7.1 0-3.5 3.4-6.2 8.2-6.2s8.2 2.7 8.2 6.2c0 4.3-5.5 7.1-8.2 7.1Z" /><circle cx="9.1" cy="15.2" r="4.1" /><circle cx="15.7" cy="9.8" r="4.2" /><circle cx="24.3" cy="9.8" r="4.2" /><circle cx="30.9" cy="15.2" r="4.1" /></svg>
+          </span>
+          <span>FindA<span>Paw</span></span>
+        </a>
+        <p>Making forever homes easier to find.</p>
+        <p class="copyright">© 2026 FindAPaw. Made with love for rescue pets.</p>
+      </div>
+    </footer>
+  </body>
+</html>
